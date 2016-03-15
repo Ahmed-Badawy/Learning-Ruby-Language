@@ -93,10 +93,13 @@ if testit?
 end
 
 
+#require some code ONLY ONCE
+require "./required_file.rb" 
 
-require "./required_file.rb" #require some code
+puts "-----------------------"
 
-
+#require some code & can be repeated multible times & required multible times
+load "./required_file.rb" 
 
 
 

@@ -1,0 +1,3 @@
+damn this is new line
+ ok we are here now
+This is going to the output file
